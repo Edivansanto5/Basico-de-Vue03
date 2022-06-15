@@ -1,9 +1,9 @@
 <template>
-    <h1>Meu nome é {{nome}}</h1>
+    <h1>Olá vue</h1>
 </template>
 
 <script>
 export default {
-    name: 'App'
+    name: 'PrimeiroComponente'
 }
 </script>
