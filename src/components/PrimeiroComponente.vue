@@ -4,6 +4,11 @@
 
 <script>
 export default {
-    name: 'PrimeiroComponente'
+    name: 'PrimeiroComponente',
+    data(){
+        return{
+            
+        }
+    }
 }
 </script>
