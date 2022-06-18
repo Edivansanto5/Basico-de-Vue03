@@ -13,10 +13,9 @@ export default {
         }
     },
     created(){
-        setInterval(()=>{
-            this.nome = 'Marcelo'
-        },1000)
-        
+      setTimeout(()=>{
+          this.nome =  'Marcos'
+      },1000)
     },
     mounted(){
         this.nome = 'Fabio'
