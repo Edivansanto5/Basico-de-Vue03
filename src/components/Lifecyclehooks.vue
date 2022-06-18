@@ -14,6 +14,9 @@ export default {
     },
     created(){
         this.nome = 'marcelo'
+    },
+    mounted(){
+        
     }
 }
 </script>
