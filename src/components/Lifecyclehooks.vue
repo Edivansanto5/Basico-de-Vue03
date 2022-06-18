@@ -11,6 +11,9 @@ export default {
         return{
             nome: 'Edivan santos'
         }
+    },
+    created(){
+        this.nome = 'marcelo'
     }
 }
 </script>
