@@ -18,7 +18,9 @@ export default {
       },1000)
     },
     mounted(){
-        this.nome = 'Fabio'
+        setTimeout(()=>{
+            this.nome = 'Fabio'
+        },2500)  
     }
 }
 </script>
