@@ -13,7 +13,10 @@ export default {
         }
     },
     created(){
-        this.nome = 'Marcelo'
+        setInterval(()=>{
+            this.nome = 'Marcelo'
+        },1000)
+        
     },
     mounted(){
         this.nome = 'Fabio'
