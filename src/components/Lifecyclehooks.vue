@@ -13,10 +13,10 @@ export default {
         }
     },
     created(){
-        this.nome = 'marcelo'
+        this.nome = 'Marcelo'
     },
     mounted(){
-        
+        this.nome = 'Fabio'
     }
 }
 </script>
