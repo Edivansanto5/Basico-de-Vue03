@@ -14,13 +14,20 @@ export default {
     },
     created(){
       setTimeout(()=>{
-          this.nome =  'Marcos'
+          this.nome =  'Marcos de Abrel'
       },1000)
+      setTimeout(()=>{
+        this.nome = 'Elenildo Sousa'
+      },3000)
+       setTimeout(()=>{
+            this.nome = 'Edlison santos'
+        },5000) 
     },
     mounted(){
         setTimeout(()=>{
-            this.nome = 'Fabio'
-        },2500)  
+            this.nome = 'Fabio de sousa'
+        },7000)
+       
     }
 }
 </script>
