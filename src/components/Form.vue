@@ -1,6 +1,6 @@
 <template>
     <form action="">
-        <input type="text">
+       
         <input type="text">
         <input type="submit" value="Enviar">
     </form>
