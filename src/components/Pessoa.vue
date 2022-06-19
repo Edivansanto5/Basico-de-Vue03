@@ -2,6 +2,7 @@
     <div>
       <h2>Essa é uma Descrição da Pessoa chamada {{nome}}</h2>
       <Info/>
+      <Form/>
     
     </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 
 import Info from './Info.vue'
+import Form from './Form.vue';
 
 export default {
     name: "Pessoa",
@@ -17,8 +19,9 @@ export default {
             nome: "Mario de Sousa Junior"
         };
     },
-    components: { 
-        Info,
-    }
+    components: {
+    Info,
+    Form
+}
 }
 </script>
