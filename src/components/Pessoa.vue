@@ -3,7 +3,7 @@
       <h2>Essa é uma Descrição da Pessoa chamada {{nome}}</h2>
       <Info/>
       <Form/>
-    
+     
     </div>
 </template>
 
@@ -11,6 +11,7 @@
 
 import Info from './Info.vue'
 import Form from './Form.vue';
+
 
 export default {
     name: "Pessoa",
@@ -21,7 +22,8 @@ export default {
     },
     components: {
     Info,
-    Form
+    Form,
+    
 }
 }
 </script>

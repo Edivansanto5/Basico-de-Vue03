@@ -1,22 +1,30 @@
 <template>
     <form action="">
-        <InputText/>
-        <InputText/>
-    <Submit/>
+       <div>
+            <InputText/>
+       </div>
+       <div>
+            <InputText/>
+       </div>
+       <br>
+      <div>
+          <Submit/>
+      </div>
     </form>
     
 </template>
 
 <script>
 import InputText from './form/InputText.vue'
-import Submit from './form/InputText.vue'
+import Submit from './form/Submit.vue'
+
+
 
 export default {
     name:'Form',
-   components:{
+    components:{
     InputText,
     Submit
-
-   }
+}
 }
 </script>

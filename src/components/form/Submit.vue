@@ -5,10 +5,6 @@
 <script>
 export default {
     name:'Submit',
-    data(){
-        return{
-
-        }
-    }
+   
 }
 </script>
