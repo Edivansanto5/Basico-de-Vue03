@@ -1,5 +1,8 @@
 <template>
   <h3>Meu nome é {{nome}}</h3>
+  <p>Meus sonho e ser um bom Progamador</p>
+  <p>Para eu poder ganhar um bom dinheiro e ajudar a minha familia</p>
+  <p>Em caso de desistencia eu serei um mero fracassado da populaçao brasileira</p>
 </template>
 
 <script>
