@@ -1,4 +1,5 @@
 <template>
+    <h2 v-if="mostrar">Meu sonho e ser grande</h2>
     <p>Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <ul>
@@ -26,7 +27,7 @@ export default {
     name:'Info',
     data(){
         return{
-
+            mostrar:true
         }
     }
 }
