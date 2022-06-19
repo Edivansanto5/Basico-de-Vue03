@@ -3,6 +3,7 @@
     <PrimeiroComponenteVue />
     <Lifecyclehooks/>
     <Pessoa/>
+    <Diretivas/>
 
   </div>
 </template>
@@ -11,13 +12,15 @@
 import PrimeiroComponenteVue from './components/PrimeiroComponente.vue';
 import Lifecyclehooks from './components/Lifecyclehooks.vue';
 import Pessoa from './components/Pessoa.vue'
+import Diretivas from './components/Diretivas.vue';
 
 export default {
     name: "App",
     components: { 
       PrimeiroComponenteVue,
       Lifecyclehooks,
-      Pessoa
+      Pessoa,
+      Diretivas
     }
 }
 </script>
