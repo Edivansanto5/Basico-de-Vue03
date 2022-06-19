@@ -7,7 +7,9 @@
 </template>
 
 <script>
+
 import Info from './Info.vue'
+
 export default {
     name: "Pessoa",
     data() {
@@ -16,7 +18,7 @@ export default {
         };
     },
     components: { 
-        Info 
+        Info,
     }
 }
 </script>
