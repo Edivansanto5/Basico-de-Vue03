@@ -1,9 +1,10 @@
 <template>
     <form action="">
-       
-    </form>
-    <InputText/>
+        <InputText/>
+        <InputText/>
     <Submit/>
+    </form>
+    
 </template>
 
 <script>
