@@ -3,6 +3,7 @@
     <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <p>ola v-show</p>
+    <p>Para acessar meu GitHub basta Clicar <a :href="aqui">Aqui</a></p>
     <ul>
         <li> <a v-bind:href="rubi">RUBI</a></li>
         <li> <a :href="php"> PHP </a></li>
@@ -37,6 +38,7 @@ export default {
             js:'https://www.w3schools.com/js/',
             mostrar:false,
             mostrarFrameWork:true,
+            aqui:'https://github.com/Edivansanto5'
         }
     }
 }
