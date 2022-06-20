@@ -1,5 +1,5 @@
 <template>
-    <p>Estou trabalhando no momento</p>
+    <p v-if="mostrar">Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <ul v-show=" mostrarTecnologia">
         <li> <a v-bind:href="rubi">RUBI</a></li>
@@ -32,7 +32,8 @@ export default {
             pithon:'https://www.python.org/',
             html:'https://www.w3schools.com/html/',
             css:'https://www.w3schools.com/css/',
-            js:'https://www.w3schools.com/js/'
+            js:'https://www.w3schools.com/js/',
+            mostrar:false
         }
     }
 }
