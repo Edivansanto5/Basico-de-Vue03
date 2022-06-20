@@ -2,6 +2,7 @@
     <h2 v-if="mostrar">Meu sonho e ser grande</h2>
     <p v-else>Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
+    <p>Para mais informação procure <a v-bind:href="meuLink">Meu link</a></p>
     <ul v-show="mostrarTrcnologia">
         <li>RUBI</li>
         <p>PHP</p>
@@ -28,7 +29,8 @@ export default {
     data(){
         return{
             mostrar:false,
-            mostrarTrcnologia: true
+            mostrarTrcnologia: true,
+            meuLink:'https://google.com'
         }
     }
 }
