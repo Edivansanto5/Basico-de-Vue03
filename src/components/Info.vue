@@ -1,5 +1,6 @@
 <template>
     <p v-if="mostrar">Estou trabalhando no momento</p>
+    <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <ul v-show=" mostrarTecnologia">
         <li> <a v-bind:href="rubi">RUBI</a></li>
