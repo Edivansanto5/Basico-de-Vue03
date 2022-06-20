@@ -1,6 +1,6 @@
 <template>
     <h2 v-if="mostrar">Meu sonho e ser grande</h2>
-    <p>Estou trabalhando no momento</p>
+    <p v-else>Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <ul v-show="mostrarTrcnologia">
         <li>RUBI</li>
@@ -27,8 +27,8 @@ export default {
     name:'Info',
     data(){
         return{
-            mostrar:true,
-            mostrarTrcnologia: false
+            mostrar:false,
+            mostrarTrcnologia: true
         }
     }
 }
