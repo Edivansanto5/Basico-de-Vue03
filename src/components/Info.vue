@@ -1,9 +1,7 @@
 <template>
-    <h2 v-if="mostrar">Meu sonho e ser grande</h2>
-    <p v-else>Estou trabalhando no momento</p>
+    <p>Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
-    <p>Para mais informação procure <a v-bind:href="meuLink">Meu link</a></p>
-    <ul v-show="mostrarTrcnologia">
+    <ul v-show=" mostrarTecnologia">
         <li>RUBI</li>
         <p>PHP</p>
         <p>PYTHON</p>
@@ -28,9 +26,7 @@ export default {
     name:'Info',
     data(){
         return{
-            mostrar:false,
-            mostrarTrcnologia: true,
-            meuLink:'https://google.com'
+            mostrarTecnologia: false
         }
     }
 }

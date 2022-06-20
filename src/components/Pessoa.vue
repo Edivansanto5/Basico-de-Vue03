@@ -1,7 +1,6 @@
 <template>
     <div>
       <h2>Essa é uma Descrição da Pessoa chamada {{nome}}</h2>
-      <Info/>
       <Form/>
      
     </div>
