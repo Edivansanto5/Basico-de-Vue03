@@ -2,12 +2,12 @@
     <p>Estou trabalhando no momento</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <ul v-show=" mostrarTecnologia">
-        <li>RUBI</li>
-        <p>PHP</p>
-        <p>PYTHON</p>
-        <p>HTML5</p>
-        <P>CSS5</P>
-        <P>JAVACRIPT</P>
+        <li> <a v-bind:href="rubi">RUBI</a></li>
+        <li> <a :href="php"> PHP </a></li>
+        <li> <a :href="pithon"> PYTHON </a></li>
+        <li> <a :href="html"> HTML5 </a></li>
+        <li> <a :href="css"> CSS5 </a></li>
+        <li> <a :href="js">JAVACRIPT </a> </li>
     </ul>
     <P>Uso Alguns FrameWork:</P>
     <ul>
@@ -26,7 +26,13 @@ export default {
     name:'Info',
     data(){
         return{
-            mostrarTecnologia: false
+            mostrarTecnologia: true,
+            rubi: 'https://www.jruby.org/',
+            php:'https://www.php.net/',
+            pithon:'https://www.python.org/',
+            html:'https://www.w3schools.com/html/',
+            css:'https://www.w3schools.com/css/',
+            js:'https://www.w3schools.com/js/'
         }
     }
 }
