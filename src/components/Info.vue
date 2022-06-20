@@ -3,7 +3,7 @@
     <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <p>ola v-show</p>
-    <p>Para acessar meu GitHub basta Clicar <a :href="aqui">Aqui</a></p>
+    <p>Para acessar meu GitHub basta Clicar <a :href="aqui" target="_blank" >Aqui</a></p>
     <ul>
         <li> <a v-bind:href="rubi">RUBI</a></li>
         <li> <a :href="php"> PHP </a></li>
