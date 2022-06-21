@@ -18,8 +18,6 @@
 import InputText from './form/InputText.vue'
 import Submit from './form/Submit.vue'
 
-
-
 export default {
     name:'Form',
     components:{
