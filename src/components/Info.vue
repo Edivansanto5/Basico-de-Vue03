@@ -12,6 +12,7 @@
         <li> <a :href="css"> CSS5 </a></li>
         <li> <a :href="js">JAVACRIPT </a> </li>
     </ul>
+    <Picture/>
     <P >Uso Alguns FrameWork:</P>
     <ul v-show="mostrarFrameWork">
         <li>React Native</li>
@@ -21,7 +22,7 @@
         <li>node js</li>
         <li>Flant</li>
     </ul>
-    <Picture/>
+   
    
 </template>
 
