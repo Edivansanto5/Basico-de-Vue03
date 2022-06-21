@@ -22,8 +22,6 @@
         <li>node js</li>
         <li>Flant</li>
     </ul>
-   
-   
 </template>
 
 <script>
