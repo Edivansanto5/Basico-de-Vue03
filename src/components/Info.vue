@@ -21,13 +21,19 @@
         <li>node js</li>
         <li>Flant</li>
     </ul>
+    <Picture/>
    
 </template>
 
 <script>
+import Picture from './Picture.vue'
 export default {
     name:'Info',
+    components:{
+        Picture
+    },
     data(){
+        
         return{
             mostrarTecnologia: true,
             rubi: 'https://www.jruby.org/',
