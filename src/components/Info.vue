@@ -2,8 +2,11 @@
     <h4 v-if="mostrar">Estou trabalhando no momento</h4>
     <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
-    <p>Mande uma mensagem para meu {{email}} </p>
-    <p>ola v-show</p>
+    <div>
+        <button>MostrarEmail</button>
+    </div>
+    <p v-if="mostarEmail">Mande uma mensagem para meu {{email}} </p>
+    
     <p>Para acessar meu GitHub basta Clicar <a :href="aqui" target="_blank" >Aqui</a></p>
     <ul>
         <li> <a v-bind:href="rubi">RUBI</a></li>
@@ -43,6 +46,7 @@ export default {
             css:'https://www.w3schools.com/css/',
             js:'https://www.w3schools.com/js/',
             mostrar:false,
+            mostarEmail: true,
             mostrarFrameWork:true,
             aqui:'https://github.com/Edivansanto5',
             email:'Edivansantos1678@gmail.com'
