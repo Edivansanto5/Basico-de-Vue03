@@ -46,7 +46,7 @@ export default {
             css:'https://www.w3schools.com/css/',
             js:'https://www.w3schools.com/js/',
             mostrar:false,
-            mostarEmail: true,
+            mostarEmail: false,
             mostrarFrameWork:true,
             aqui:'https://github.com/Edivansanto5',
             email:'Edivansantos1678@gmail.com',
