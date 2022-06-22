@@ -3,7 +3,7 @@
     <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <div>
-        <button @click="exibirEmail">MostrarEmail</button>
+        <button @click="exibirEmail">{{textoBotao}}</button>
     </div>
     <p v-if="mostarEmail">Mande uma mensagem para meu {{email}} </p>
     
@@ -46,17 +46,24 @@ export default {
             css:'https://www.w3schools.com/css/',
             js:'https://www.w3schools.com/js/',
             mostrar:false,
-            mostarEmail: false,
             mostrarFrameWork:true,
             aqui:'https://github.com/Edivansanto5',
             email:'Edivansantos1678@gmail.com',
+            mostarEmail: false,
+            textoBotao : 'Mostrar Email'
 
         }
     },
     methods:{
         exibirEmail(){
            this.mostarEmail = !this.mostarEmail
+           if(!this.mostarEmail){
+               this.textoBotao = 'Mostrar Email'
+           }else{
+               this.textoBotao = 'Ocutar Email'
+           }
         }
+        
     }
     }
 </script>
