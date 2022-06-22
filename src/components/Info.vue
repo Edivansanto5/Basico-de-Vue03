@@ -55,7 +55,8 @@ export default {
     },
     methods:{
         exibirEmail(){
-            
+           
+        }
     }
     }
 </script>
