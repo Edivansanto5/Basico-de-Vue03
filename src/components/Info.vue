@@ -3,7 +3,7 @@
     <p v-else>Sou um programador iniciante</p>
     <p>Sou fruente nas Seguintes tecnologias</p>
     <div>
-        <button>MostrarEmail</button>
+        <button @click="exibirEmail">MostrarEmail</button>
     </div>
     <p v-if="mostarEmail">Mande uma mensagem para meu {{email}} </p>
     
@@ -49,8 +49,14 @@ export default {
             mostarEmail: true,
             mostrarFrameWork:true,
             aqui:'https://github.com/Edivansanto5',
-            email:'Edivansantos1678@gmail.com'
+            email:'Edivansantos1678@gmail.com',
+
+        }
+    },
+    methods:{
+        exibirEmail(){
+            console.log('testando o botão')
         }
     }
-}
+    }
 </script>
