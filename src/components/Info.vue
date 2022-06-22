@@ -55,8 +55,7 @@ export default {
     },
     methods:{
         exibirEmail(){
-            console.log('testando o botão')
-        }
+            
     }
     }
 </script>
